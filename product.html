@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>GreenDen</title>
+</head>
+
+
+
+<body>
+
+<nav class="bg-green-100 p-4 flex items-center justify-between shadow-2xl sticky top-0 z-10">
+
+    <h1 class="text-2xl font-bold text-zinc-950">Greenden</h1>
+
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 lg:hidden" fill="none" viewBox="0 0 24 24"
+        stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+    </svg>
+
+    <div class="gap-3 hidden md:flex ">
+        <a href="./index_green.html" class="hover:underline">Home</a>
+        <a href="./product.html" class="hover:underline">Products</a>
+        <a href="./contact.html" class="hover:underline">Contact</a>
+    </div>
+
+</nav>
+
+
+
+
+<section class="p-4 text-center">
+    <h1 class="font-bold text-3xl m-10">Best Sellers</h1>
+    <div>
+        <input class=" border rounded w-100 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="search" type="text" placeholder="Search">
+    </div>
+    <div id="productcontainer" class="grid grid-cols-2 md:grid-cols-4 m-10 gap-10 pt-5">
+        <div>
+            <img src="./images/best_seller.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <h1>Rose Pot</h1>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./images/best_seller1.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <h1>lily Pot</h1>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./images/best_seller2.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <h1>caendrum Pot</h1>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./images/best_seller3.jpg" class="inline hover: shadow-xl transform hover:-translate-y-2">
+            <h1>cifella Pot</h1>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./images/best_seller1.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <h1>lily Pot</h1>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./images/best_seller.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <h1>Rose Pot</h1>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./images/best_seller3.jpg" class="inline hover: shadow-xl transform hover:-translate-y-2">
+            <h1>cifella Pot</h1>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./images/best_seller2.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <h1>caendrum Pot</h1>
+            <p>$20</p>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="bg-green-100 flex flex-col gap-4">
+    <h1 class="text-3xl font-bold">GreenDen</h1>
+    <p class="">The Standard chunk of Lorem ipsumused sincethe 1500s is reproducedbelow for those interest</p>
+    <p class="">@ 2021Greenday.com</p>
+</section>
+
+
+<script>
+var search=document.getElementById("search");
+var productcontainer=document.getElementById("#productcontainer");
+var productlist=container.querySelectorAll("div");
+console.log(productlist)
+</script>
+</body>
